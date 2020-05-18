@@ -1,8 +1,5 @@
 <?php
-
-/* @var $this \yii\web\View */
-/* @var $content string */
-
+use yii\helpers\Url;
 use backend\assets\LoginAsset;
 use yii\helpers\Html;
 LoginAsset::register($this);
@@ -25,4 +22,8 @@ LoginAsset::register($this);
 </form>
 </div>
 </div>
-
+<script>
+	$(function(){
+		alert(123);
+	})
+</script>
