@@ -16,7 +16,7 @@ class IndexController extends BaseController
 	    $a = 1;
 	    $b = 2;
 	    $c = $a+$b;
-		var_dump(111111122222);die;
+		var_dump(2222);die;
 	}
 
 	public function actionTest()
