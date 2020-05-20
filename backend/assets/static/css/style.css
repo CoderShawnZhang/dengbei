@@ -3529,9 +3529,14 @@ video {
 #wrapper {
     width: 100%;
     overflow-x: hidden;
-    background-color: #2f4050;
+    /*background-color: #2f4050;*/
 }
 
+.login_background{
+    background-image: url(http://supplier.baodeng.wang/static/image/admin/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .wrapper {
     padding: 0 20px;
 }

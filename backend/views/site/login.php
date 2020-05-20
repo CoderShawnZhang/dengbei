@@ -17,7 +17,7 @@ LoginAsset::register($this);
  <h2>管理登录</h2>
 <input type="text" placeholder="用户名" value="admin" id="user_name" />
 <input type="password" placeholder="密码" id="password" />
-<button id="login">登　录</button>
+<button id="login" style="background:#1E9FFF;">登　录</button>
 <p class="message">还没有账户? <a href="#">立刻创建</a></p>
 </form>
 </div>

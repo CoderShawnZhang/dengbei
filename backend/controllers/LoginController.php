@@ -12,6 +12,7 @@ use common\models\LoginForm;
  */
 class LoginController extends Controller
 {
+	
 	public function actionLogin()
 	{
 		return $this->render('login');

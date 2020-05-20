@@ -13,14 +13,12 @@ class AppAsset extends AssetBundle
     // public $baseUrl = '@web';
     public $sourcePath = '@backend/assets/static';
     public $css = [
-        
-       
-       
         'layui/css/layui.css',
         'css/xadmin.css',
         'css/style.css',
         'css/font.css',
-         'css/xadmin.css'
+        'css/xadmin.css',
+        'css/css.css'
     ];
     public $js = [
         'javascript/xcity.js',
