@@ -12,6 +12,7 @@ class IndexController extends BaseController
 	
     public function actionIndex()
 	{
+
 	    $a = 1;
 	    $b = 2;
 	    $c = $a+$b;
@@ -20,6 +21,8 @@ class IndexController extends BaseController
 
 	public function actionTest()
 	{
-		var_dump(111);die;
+		$res = shell_exec("cd /data/wwwroot/dengbei && git pull origin master");
+		print_r($res);
+		// var_dump(111);die;
 	}
 }
