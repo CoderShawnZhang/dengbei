@@ -117,8 +117,8 @@ AppAsset::register($this);
                             <th>MYSQL版本</th>
                             <td>5.5.53</td></tr>
                         <tr>
-                            <th>ThinkPHP</th>
-                            <td>5.0.18</td></tr>
+                            <th>Yii</th>
+                            <td>2.0</td></tr>
                         <tr>
                             <th>上传附件限制</th>
                             <td>2M</td></tr>
