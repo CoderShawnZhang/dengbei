@@ -1,5 +1,6 @@
 <?php
-defined('YII_ENV_TEST') or define('YII_ENV_TEST', true);
+ini_set('display_errors',1);    
+error_reporting(-1); 
 defined('YII_DEBUG') or define('YII_DEBUG', true);
 defined('YII_ENV') or define('YII_ENV', 'dev');
 
@@ -15,5 +16,5 @@ $config = yii\helpers\ArrayHelper::merge(
     require __DIR__ . '/../config/main.php',
     require __DIR__ . '/../config/main-local.php'
 );
-var_dump(123);die;
+
 (new yii\web\Application($config))->run();
