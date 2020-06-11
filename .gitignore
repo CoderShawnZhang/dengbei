@@ -18,9 +18,9 @@ nbproject
 Thumbs.db
 
 # composer vendor dir
-/vendor
+#/vendor
 #/vagrant
-/vendor/codeception
+#/vendor/codeception
 
 
 # composer itself is not needed
