@@ -20,6 +20,8 @@ Thumbs.db
 # composer vendor dir
 /vendor
 #/vagrant
+/vendor/codeception
+
 
 # composer itself is not needed
 composer.phar
