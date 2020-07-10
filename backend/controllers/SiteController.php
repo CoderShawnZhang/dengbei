@@ -6,12 +6,14 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
+use yii\web\Response;
 
 /**
  * Site controller
  */
 class SiteController extends Controller
 {
+
     /**
      * {@inheritdoc}
      */
@@ -63,6 +65,17 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionMenu()
+    {
+        //缓存
+//        Yii::$app->cache('a');
+        Yii::$app->response->format = Response::FORMAT_JSON;
+
+        return [
+            'success' => 22,
+            'msg' => 11,
+        ];
+    }
     /**
      * Login action.
      *
@@ -87,7 +100,7 @@ class SiteController extends Controller
         }
     }
     public function actionWelcome(){
-
+        $this->layout = false;
         return $this->render('welcome');
     }
 

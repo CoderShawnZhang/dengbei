@@ -9,27 +9,24 @@ use yii\web\AssetBundle;
  */
 class AppAsset extends AssetBundle
 {
-    // public $basePath = '@webroot';
+//     public $basePath = '@backend/assets/static';
     // public $baseUrl = '@web';
     public $sourcePath = '@backend/assets/static';
     public $css = [
         'layui/css/layui.css',
-        'css/xadmin.css',
         'css/style.css',
-        'css/font.css',
-        'css/xadmin.css',
-        'css/css.css'
+//        'css/font-awesome.css'
     ];
     public $js = [
-        'javascript/xcity.js',
-       
         'javascript/jquery.min.js',
-       
-         'layui/layui.js',
-          'javascript/xadmin.js',
+        'layui/layui.all.js',
+        'javascript/admin.js'
     ];
     public $depends = [
-        // 'yii\web\YiiAsset',
-        // 'yii\bootstrap\BootstrapAsset',
+         'yii\web\YiiAsset',
+         'yii\bootstrap\BootstrapAsset',
+    ];
+    public $jsOptions = [
+        'position' => \yii\web\View::POS_END
     ];
 }

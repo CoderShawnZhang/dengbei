@@ -12,11 +12,20 @@ return [
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [
+        'admin' => [
+            'class' => 'mdm\admin\Module'
+        ],
+        //商品模块-后期对接商品库组件
         'Goods' => [
             'class' => 'backend\Modules\Goods\Module',
         ],
+        //登录模块
+        'Login' => [
+            'class' => 'backend\Modules\Login\Module',
+        ]
     ],
     'components' => [
+
         'request' => [
             'csrfParam' => '_csrf-backend',
         ],
@@ -41,16 +50,26 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'rules' => [
-
-            ],
+            'rules' => [],
         ],
-        
+        'db' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=mysql;dbname=dengbei;port=3306',
+            'username' => 'root',
+            'password' => '123456',
+            'charset' => 'utf8',
+        ],
     ],
     'defaultRoute' => 'base',
     'params' => $params,
+    'as access' => [
+        'class' => 'mdm\admin\components\AccessControl',
+        'allowActions' => [
+            'site/*',
+            'admin/*',
+        ]
+    ],
 ];
