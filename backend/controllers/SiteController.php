@@ -131,6 +131,7 @@ class SiteController extends Controller
 
     public function actionTop()
     {
+
         $get = Yii::$app->request->get();
         $type = isset($get['type']) ? $get['type'] : 0;
 
@@ -164,8 +165,10 @@ class SiteController extends Controller
             ]);
         }
     }
+//    public $layout = 'header';   //定义父模板名为home
     public function actionWelcome(){
         $this->layout = false;
+
         return $this->render('welcome');
     }
 

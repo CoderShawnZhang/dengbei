@@ -32,10 +32,10 @@ AppAsset::register($this);
         <ul class="layui-nav layui-layout-left topLevelMenus">
             <li class="layui-nav-item" data-menu="1"><a href="javascript:;">搜灯网</a></li>
             <li class="layui-nav-item" data-menu="2"><a href="javascript:;">统计报表</a></li>
-            <li class="layui-nav-item" data-menu="2"><a href="javascript:;">单据查询</a></li>
-            <li class="layui-nav-item" data-menu="3"><a href="javascript:;">定时任务</a></li>
-            <li class="layui-nav-item" data-menu="3"><a href="javascript:;">配置管理</a></li>
-            <li class="layui-nav-item" data-menu="4"><a href="javascript:;">系统管理</a></li>
+            <li class="layui-nav-item" data-menu="3"><a href="javascript:;">单据查询</a></li>
+            <li class="layui-nav-item" data-menu="4"><a href="javascript:;">定时任务</a></li>
+            <li class="layui-nav-item" data-menu="5"><a href="javascript:;">配置管理</a></li>
+            <li class="layui-nav-item" data-menu="6"><a href="javascript:;">系统管理</a></li>
             <span class="layui-nav-bar"></span>
         </ul>
         <ul class="layui-nav layui-layout-right">
