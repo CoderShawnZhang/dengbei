@@ -13,7 +13,21 @@ return [
     'bootstrap' => ['log'],
     'modules' => [
         'admin' => [
-            'class' => 'mdm\admin\Module'
+            'class' => 'mdm\admin\Module',
+            'layout' => 'left-menu',
+            'controllerMap' => [  
+                'assignment' => [  
+                    'class' => 'mdm\admin\controllers\AssignmentController',  
+                    'userClassName' => 'app\models\User',  
+                    'idField' => 'id'  
+                ]  
+            ],  
+            'menus' => [  
+                'assignment' => [  
+                    'label' => 'Grand Access' // change label  
+                ],  
+                //'route' => null, // disable menu route  
+            ]  
         ],
         //商品模块-后期对接商品库组件
         'Goods' => [

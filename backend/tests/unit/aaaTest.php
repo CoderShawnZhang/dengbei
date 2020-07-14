@@ -25,5 +25,6 @@ class aaaTest extends \Codeception\Test\Unit
         $this->assertEquals('bbbb','bbbb');
         $this->assertTrue(true);
         $this->assertEmpty('');
+        $this->assertTrue(true);
     }
 }

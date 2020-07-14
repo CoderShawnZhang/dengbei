@@ -9,7 +9,8 @@ layui.define(["element"],function(exports){ //提示：模块也可以依赖其�
         this.tabConfig = {
             openTabNum: undefined,  //最大可打开窗口数量
             tabFilter: "bodyTab",  //添加窗口的filter
-            url: undefined  //获取菜单json地址
+            url: undefined,  //获取菜单json地址
+            top_url: undefined
         };
     };
     //插件测试函数
@@ -17,31 +18,25 @@ layui.define(["element"],function(exports){ //提示：模块也可以依赖其�
         alert('hello world!');
     };
     //插件导航生成函数
-    obj.prototype.navBar = function(){
-        var ulHtml = '<li class="layui-nav-item">\n' +
-            '                    <a class="" href="javascript:;">所有商品<span class="layui-nav-more"></span></a>\n' +
-            '                    <dl class="layui-nav-child">\n' +
-            '                        <dd><a href="javascript:;" data-url="/site/welcome">列1表一</a></dd>\n' +
-            '                        <dd><a href="javascript:;" data-url="/admin/menu">列2表二</a></dd>\n' +
-            '                        <dd><a href="javascript:;">列3表三</a></dd>\n' +
-            '                        <dd><a href="javascript:;">超链接</a></dd>\n' +
-            '                    </dl>\n' +
-            '                </li>';
-
-        ulHtml += '<li class="layui-nav-item">\n' +
-            '                    <a class="" href="javascript:;">所有商品<span class="layui-nav-more"></span></a>\n' +
-            '                    <dl class="layui-nav-child">\n' +
-            '                        <dd><a href="javascript:;" data-url="/site/welcome">列1表一</a></dd>\n' +
-            '                        <dd><a href="javascript:;">列2表二</a></dd>\n' +
-            '                        <dd><a href="javascript:;">列3表三</a></dd>\n' +
-            '                        <dd><a href="javascript:;">超链接</a></dd>\n' +
-            '                    </dl>\n' +
-            '                </li>';
-        return ulHtml;
+    obj.prototype.navBar = function(menuArray){
+        var html = '';
+        for (var parent in menuArray) {
+            var topTitle = menuArray[parent].title;
+            html +='<li class="layui-nav-item">';
+            html +='<a class="" href="javascript:;">'+topTitle+'<span class="layui-nav-more"></span></a>';
+            html +='<dl class="layui-nav-child">';
+            for(var child in menuArray[parent].children){
+                var childTitle = menuArray[parent].children[child].title;
+                html+='<dd><a href="javascript:;" data-url="/site/welcome">'+childTitle+'</a></dd>';
+            }
+            html +='</dl>';
+            html +='</li>';
+        }
+        return html;
     };
     //将动态生成的HTML导航渲染在左侧列表
-    obj.prototype.render = function(){
-        $(".layui-side-scroll ul").append(this.navBar());
+    obj.prototype.render = function(menuArray){
+        $(".layui-side-scroll ul").html('').append(this.navBar(menuArray));
         element.init();
     };
     var tabIdIndex = 0;
@@ -49,15 +44,20 @@ layui.define(["element"],function(exports){ //提示：模块也可以依赖其�
     obj.prototype.tabAdd = function(_this){
         var that = this;
         var title = '';
-        tabIdIndex++;
-        title += '<i class="layui-icon layui-icon-refresh tab_refresh" style="padding:3px;margin-right:3px"></i>';
-        title += '<span>'+_this.html()+'</span>';
-        element.tabAdd("top_nav_raw",{
-            title:title,
-            content:"<iframe src='"+_this.attr("data-url")+"' data-id='"+tabIdIndex+"'></iframe>",
-            id: new Date().getTime()
-        });
-        element.tabChange('top_nav_raw', that.getLayId(_this.html())); //切换到：用户管理
+        //检查在已经打开窗口中是否存在
+        if(that.hasTab(_this.html()) == -1 && _this.siblings('dl.layui-nav-child').length == 0){
+            tabIdIndex++;
+            title += '<i class="layui-icon layui-icon-refresh tab_refresh" style="padding:3px;margin-right:3px"></i>';
+            title += '<span>'+_this.html()+'</span>';
+            element.tabAdd("top_nav_raw",{
+                title:title,
+                content:"<iframe src='"+_this.attr("data-url")+"' data-id='"+tabIdIndex+"'></iframe>",
+                id: new Date().getTime()
+            });
+            element.tabChange('top_nav_raw', that.getLayId(_this.html())); //切换到：用户管理
+        } else {
+            element.tabChange('top_nav_raw', that.getLayId(_this.html())); //切换到：用户管理
+        }
     };
     //通过title获取lay-id
     obj.prototype.getLayId = function (title) {
@@ -66,13 +66,21 @@ layui.define(["element"],function(exports){ //提示：模块也可以依赖其�
             if ($(this).find("span").html() == title) {
                 layId = $(this).attr("lay-id");
             }
-        })
+        });
         return layId;
+    }
+    obj.prototype.hasTab = function(title){
+        var tabIndex = -1;
+        $(".layui-tab-title li").each(function(){
+            if($(this).find('span').html() == title){
+                tabIndex = 1;
+            }
+        });
+        return tabIndex;
     }
 
     //事件绑定
     $("body").on("click", ".layui-tab-title li i.tab_refresh", function () {
-        alert(123123);
         //加载动画 layui-icon-loading
         $(this).addClass('layui-icon-loading layui-anim layui-anim-rotate layui-anim-loop');
         $(".clildFrame .layui-tab-item.layui-show").find("iframe")[0].contentWindow.location.reload();

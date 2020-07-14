@@ -4,6 +4,9 @@ iframe {
     width: 100%;
     border: none;
 }
+.layui-nav-item a{
+    text-decoration:none
+}
 .layui-tab-item.layui-show{
     -webkit-animation: moveTop 1s;
     -webkit-animation-fill-mode: both;
@@ -28,6 +31,14 @@ iframe {
 }
 
 .layui-nav-tree .layui-nav-child dd.layui-this, .layui-nav-tree .layui-nav-child dd.layui-this a, .layui-nav-tree .layui-this, .layui-nav-tree .layui-this>a, .layui-nav-tree .layui-this>a:hover {
+    background-color: #63B8FF;
+    color: #fff;
+}
+
+
+/*选显卡选中的背景色*/
+
+.layui-tab-title .layui-this {
     background-color: #63B8FF;
     color: #fff;
 }

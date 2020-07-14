@@ -65,13 +65,78 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    /**
+     * @test
+     */
+    private function getMenu()
+    {
+        $menuArray = [
+            [
+                'id' => 2,'pid' => 1,'title' => '主菜单1','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self',
+                'children'=>[
+                    ['id' => 4,'pid' => 2,'title' => '1-子菜单1','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
+                    ['id' => 5,'pid' => 2,'title' => '1-子菜单2','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
+                    ['id' => 6,'pid' => 2,'title' => '1-子菜单3','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
+                    ['id' => 6,'pid' => 2,'title' => '1-123','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
+                    ['id' => 6,'pid' => 2,'title' => '1-333','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
+                    ['id' => 6,'pid' => 2,'title' => '1-444','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
+                ]
+            ],
+            [
+                'id' => 3,'pid' => 1,'title' => '主菜单2','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self',
+                'children'=>[
+                    ['id' => 7,'pid' => 3,'title' => '2-子菜单1','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
+                    ['id' => 8,'pid' => 3,'title' => '2-子菜单2','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
+                    ['id' => 9,'pid' => 3,'title' => '2-子菜单3','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
+                ]
+            ]
+        ];
+        return $menuArray;
+    }
+
+
+    /**
+     * @test
+     */
+    private function getMenu1()
+    {
+        $menuArray = [
+            [
+                'id' => 2,'pid' => 1,'title' => '主菜单1','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self',
+                'children'=>[
+                    ['id' => 4,'pid' => 2,'title' => '1-子菜单1','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
+                ]
+            ],
+            [
+                'id' => 3,'pid' => 1,'title' => '主菜单2','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self',
+                'children'=>[
+                    ['id' => 7,'pid' => 3,'title' => '2-子菜单1','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
+                    ['id' => 8,'pid' => 3,'title' => '2-子菜单2','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
+                ]
+            ]
+        ];
+        return $menuArray;
+    }
+
     public function actionMenu()
     {
-        //缓存
-//        Yii::$app->cache('a');
         Yii::$app->response->format = Response::FORMAT_JSON;
 
         return [
+            'menu' => $this->getMenu(),
+            'success' => 22,
+            'msg' => 11,
+        ];
+    }
+
+    public function actionTop()
+    {
+        $get = Yii::$app->request->get();
+        $type = isset($get['type']) ? $get['type'] : 0;
+
+        Yii::$app->response->format = Response::FORMAT_JSON;
+        return [
+            'menu' => $this->getMenu1(),
             'success' => 22,
             'msg' => 11,
         ];
