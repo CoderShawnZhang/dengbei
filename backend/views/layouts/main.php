@@ -31,7 +31,12 @@ $appAsset = AppAsset::register($this);
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
     <div class="layui-header">
-        <div class="layui-logo">搜灯管理后台</div>
+
+        <div class="layui-logo">
+            <img src="<?=$appAsset->baseUrl.'/images/sodenglogo.png'?>" class="layui-nav-img">
+            <span>搜灯管理后台</span>
+        </div>
+        <a href="javascript:;" class="seraph hideMenu icon-caidan"></a>
         <!-- 头部区域（可配合layui已有的水平导航） -->
         <ul class="layui-nav layui-layout-left topLevelMenus">
             <li class="layui-nav-item" data-menu="1"><a href="javascript:;">搜灯网</a></li>
@@ -69,7 +74,7 @@ $appAsset = AppAsset::register($this);
         <ul class="layui-nav layui-layout-right">
             <li class="layui-nav-item">
                 <a href="javascript:;">
-                    <img src="//tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" class="layui-nav-img">
+                    <img src="<?=$appAsset->baseUrl.'/images/user_face.png'?>" class="layui-nav-img">
                     管理员
                     <span class="layui-nav-more"></span>
                 </a>

@@ -22,12 +22,14 @@ layui.define(["element"],function(exports){ //提示：模块也可以依赖其�
         var html = '';
         for (var parent in menuArray) {
             var topTitle = menuArray[parent].title;
+            var topIcon = menuArray[parent].icon;
             html +='<li class="layui-nav-item">';
-            html +='<a class="" href="javascript:;">'+topTitle+'<span class="layui-nav-more"></span></a>';
+            html +='<a class="" href="javascript:;"><i class="layui-icon '+topIcon+'"></i><span class="left_icon">'+topTitle+'</span><span class="layui-nav-more"></span></a>';
             html +='<dl class="layui-nav-child">';
             for(var child in menuArray[parent].children){
                 var childTitle = menuArray[parent].children[child].title;
-                html+='<dd><a href="javascript:;" data-url="/site/welcome">'+childTitle+'</a></dd>';
+                var childIcon = menuArray[parent].children[child].icon;
+                html+='<dd><a href="javascript:;" data-url="/site/welcome"><i class="layui-icon '+childIcon+'"></i><span class="left_icon">'+childTitle+'</span></a></dd>';
             }
             html +='</dl>';
             html +='</li>';

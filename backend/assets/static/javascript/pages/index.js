@@ -34,18 +34,16 @@ $(".topLevelMenus li").click(function () {
         tab.render(res.menu);
     });
 });
-// $(".topLevelMenus li").unbind('mouseenter').on('mouseenter',function(){
-//    if(!$(this).find('dl').hasClass('layui-show')){
-//        console.log(123);
-//        $(this).find('dl').addClass('layui-show')
-//    }
-// });
-// $(".layui-nav-more dd").unbind('mouseout').on('mouseout',function(){
-//     if(!$(this).find('dl').hasClass('layui-show')){
-//         console.log(222);
-//         $(this).find('dl').removeClass('layui-show')
-//     }
-// });
+//隐藏左侧导航
+$(".hideMenu").click(function () {
+    // if ($(".topLevelMenus li.layui-this a").data("url")) {
+    //     layer.msg("此栏目状态下左侧菜单不可展开");  //主要为了避免左侧显示的内容与顶部菜单不匹配
+    //     return false;
+    // }
+    $(".layui-layout-admin").toggleClass("showMenu");
+    //渲染顶部窗口
+    // tab.tabMove();
+});
 
 /*点击左侧菜单打开tab页面*/
 function addTab(_this) {

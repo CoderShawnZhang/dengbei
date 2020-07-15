@@ -76,3 +76,41 @@ iframe {
 .topLevelMenus .layui-nav-bar:hover:after{
     background-color: #63B8FF;
 }
+.topLevelMenus{
+    margin-left:60px;
+    padding-left: 0;
+}
+
+.header_switch{
+    color: #fff;
+    margin-left: 220px;
+    line-height: 60px;
+    margin-right: 20px;
+    width: 33px;
+    cursor:pointer;
+}
+.aaa{
+    cursor:pointer;
+}
+
+/*左侧导航*/
+.hideMenu:hover,.showMenu:hover{ color:#fff; }
+.showMenu.layui-layout-admin .layui-side{ left:-200px; }
+.showMenu .layui-body,.showMenu .layui-footer{ left:0; }
+
+.hideMenu {
+    line-height: 60px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    background-color: #63B8FF;
+    margin-left: 220px;
+}
+}
+.seraph {
+    font-size: 16px !important;
+}
+
+.left_icon{
+    margin-left:5px;
+}

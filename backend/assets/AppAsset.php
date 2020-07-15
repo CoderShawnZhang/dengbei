@@ -15,7 +15,7 @@ class AppAsset extends AssetBundle
     public $css = [
         'layui/css/layui.css',
         'css/style.css',
-//        'css/font-awesome.css'
+        'css/at-alicdn.css'
     ];
     public $js = [
         'javascript/jquery.min.js',

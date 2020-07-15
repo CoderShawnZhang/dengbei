@@ -72,22 +72,22 @@ class SiteController extends Controller
     {
         $menuArray = [
             [
-                'id' => 2,'pid' => 1,'title' => '主菜单1','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self',
+                'id' => 2,'pid' => 1,'title' => '主菜单1','icon' => 'layui-icon-cellphone','href'=>'/site/welcome','target' => '_self',
                 'children'=>[
-                    ['id' => 4,'pid' => 2,'title' => '1-子菜单1','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
-                    ['id' => 5,'pid' => 2,'title' => '1-子菜单2','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
-                    ['id' => 6,'pid' => 2,'title' => '1-子菜单3','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
-                    ['id' => 6,'pid' => 2,'title' => '1-123','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
-                    ['id' => 6,'pid' => 2,'title' => '1-333','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
-                    ['id' => 6,'pid' => 2,'title' => '1-444','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
+                    ['id' => 4,'pid' => 2,'title' => '1-子菜单1','icon' => 'layui-icon-vercode','href'=>'/site/welcome','target' => '_self'],
+                    ['id' => 5,'pid' => 2,'title' => '1-子菜单2','icon' => 'layui-icon-login-wechat','href'=>'/site/welcome','target' => '_self'],
+                    ['id' => 6,'pid' => 2,'title' => '1-子菜单3','icon' => 'layui-icon-login-qq','href'=>'/site/welcome','target' => '_self'],
+                    ['id' => 6,'pid' => 2,'title' => '1-123','icon' => 'layui-icon-login-weibo','href'=>'/site/welcome','target' => '_self'],
+                    ['id' => 6,'pid' => 2,'title' => '1-333','icon' => 'layui-icon-password','href'=>'/site/welcome','target' => '_self'],
+                    ['id' => 6,'pid' => 2,'title' => '1-444','icon' => 'layui-icon-username','href'=>'/site/welcome','target' => '_self'],
                 ]
             ],
             [
-                'id' => 3,'pid' => 1,'title' => '主菜单2','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self',
+                'id' => 3,'pid' => 1,'title' => '主菜单2','icon' => 'layui-icon-auz','href'=>'/site/welcome','target' => '_self',
                 'children'=>[
-                    ['id' => 7,'pid' => 3,'title' => '2-子菜单1','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
-                    ['id' => 8,'pid' => 3,'title' => '2-子菜单2','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
-                    ['id' => 9,'pid' => 3,'title' => '2-子菜单3','icon' => '&#xe716;','href'=>'/site/welcome','target' => '_self'],
+                    ['id' => 7,'pid' => 3,'title' => '2-子菜单1','icon' => 'layui-icon-website','href'=>'/site/welcome','target' => '_self'],
+                    ['id' => 8,'pid' => 3,'title' => '2-子菜单2','icon' => 'layui-icon-console','href'=>'/site/welcome','target' => '_self'],
+                    ['id' => 9,'pid' => 3,'title' => '2-子菜单3','icon' => 'layui-icon-set','href'=>'/site/welcome','target' => '_self'],
                 ]
             ]
         ];
