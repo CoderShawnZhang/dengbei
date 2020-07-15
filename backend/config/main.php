@@ -39,7 +39,32 @@ return [
         ]
     ],
     'components' => [
+        //css,js资源文件不进行缓存操作
+        'assetManager' => [
+            'hashCallback' => function ($path) {
+                if (YII_DEBUG && !function_exists('_myhash_')) {
+                    function _myhash_($path) {
+                        if (is_dir($path)) {
+                            $handle = opendir($path);
+                            $hash = '';
+                            while (false !== ($entry = readdir($handle))) {
+                                if ($entry === '.' || $entry === '..') {
+                                    continue;
+                                }
+                                $entry = $path . '/' . $entry;
+                                $hash .= _myhash_($entry);
+                            }
+                            $result = sprintf('%x', crc32($hash . Yii::getVersion()));
+                        } else {
+                            $result = sprintf('%x', crc32(filemtime($path) . Yii::getVersion()));
+                        }
+                        return $result;
+                    }
+                }
 
+                return _myhash_($path);
+            }
+        ],
         'request' => [
             'csrfParam' => '_csrf-backend',
         ],
