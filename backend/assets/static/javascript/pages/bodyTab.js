@@ -29,7 +29,8 @@ layui.define(["element"],function(exports){ //提示：模块也可以依赖其�
             for(var child in menuArray[parent].children){
                 var childTitle = menuArray[parent].children[child].title;
                 var childIcon = menuArray[parent].children[child].icon;
-                html+='<dd><a href="javascript:;" data-url="/site/welcome"><i class="layui-icon '+childIcon+'"></i><span class="left_icon">'+childTitle+'</span></a></dd>';
+                var url = menuArray[parent].children[child].url;
+                html+='<dd><a href="javascript:;" data-url="'+url+'"><i class="layui-icon '+childIcon+'"></i><span class="left_icon">'+childTitle+'</span></a></dd>';
             }
             html +='</dl>';
             html +='</li>';

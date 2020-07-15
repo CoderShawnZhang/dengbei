@@ -146,6 +146,5 @@ $this->beginContent('@app/views/layouts/iframeMain.php');
     </script>
 
 <?php
-//$this->endBlock();
 $this->endContent();
 ?>

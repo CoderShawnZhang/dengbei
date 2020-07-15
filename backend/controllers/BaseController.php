@@ -12,5 +12,6 @@ use common\models\LoginForm;
  */
 class BaseController extends Controller
 {
-	
+	public $layout = '@app/views/layouts/iframeMain.php';
+
 }

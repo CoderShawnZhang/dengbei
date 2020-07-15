@@ -11,8 +11,14 @@ use yii\web\Response;
  */
 class IndexController extends BaseController
 {
+    public function actionTest()
+    {
+        $this->layout = false;
+        return $this->render('test');
+    }
+
     public function actionIndex()
-	{
+    {
 	    $t =  GoodsService::test();
 	    $list = GoodsService::getList();
         $dataProvider = GoodsService::getProvider();
@@ -40,10 +46,6 @@ class IndexController extends BaseController
         ]);
     }
 
-	public function actionTest()
-	{
-		var_dump(111);die;
-	}
 
 	public function actionLaylist()
     {

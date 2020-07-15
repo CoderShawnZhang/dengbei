@@ -1,4 +1,12 @@
+.login_background{
+	height: 100%;
+	/* background: red; */
+	background-image: url('12.jpg?1594795956');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 .login-page {
+
 	width: 420px;
 	padding: 8% 0 0;
 	margin: auto;

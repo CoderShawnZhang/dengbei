@@ -107,7 +107,7 @@ $appAsset = AppAsset::register($this);
                 </ul>
                 <div class="layui-tab-content clildFrame">
                     <div class="layui-tab-item layui-show">
-                        <iframe src='/site/welcome'></iframe>
+                        <iframe src='/Goods/index/test'></iframe>
                     </div>
                 </div>
             </div>

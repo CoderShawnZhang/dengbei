@@ -36,6 +36,10 @@ return [
         //登录模块
         'Login' => [
             'class' => 'backend\Modules\Login\Module',
+        ],
+        //订单模块
+        'Orders' => [
+            'class' => 'backend\Modules\Orders\Module',
         ]
     ],
     'components' => [
@@ -104,11 +108,11 @@ return [
     ],
     'defaultRoute' => 'base',
     'params' => $params,
-    'as access' => [
-        'class' => 'mdm\admin\components\AccessControl',
-        'allowActions' => [
-            'site/*',
-            'admin/*',
-        ]
-    ],
+//    'as access' => [
+//        'class' => 'mdm\admin\components\AccessControl',
+//        'allowActions' => [
+//            'site/*',
+//            'admin/*',
+//        ]
+//    ],
 ];
