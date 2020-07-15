@@ -34,6 +34,10 @@ $(".topLevelMenus li").click(function () {
         tab.render(res.menu);
     });
 });
+//左侧导航收缩
+$("body").on("click", ".layui-nav-tree .layui-nav-item a", function () {
+    $(this).parent("li").siblings().removeClass("layui-nav-itemed");
+})
 //隐藏左侧导航
 $(".hideMenu").click(function () {
     // if ($(".topLevelMenus li.layui-this a").data("url")) {
