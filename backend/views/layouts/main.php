@@ -7,7 +7,7 @@ use backend\assets\AppAsset;
 use yii\helpers\Html;
 use yii\helpers\Url;
 
-AppAsset::register($this);
+$appAsset = AppAsset::register($this);
 ?>
 
 <?php $this->beginPage() ?>
@@ -20,8 +20,12 @@ AppAsset::register($this);
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
+
+    <?php
+        $this->registerJs($this->render('test.js'));
+    ?>
 </head>
-<body>
+
 <?php $this->beginBody() ?>
 
 <body class="layui-layout-body">
@@ -35,8 +39,32 @@ AppAsset::register($this);
             <li class="layui-nav-item" data-menu="3"><a href="javascript:;">单据查询</a></li>
             <li class="layui-nav-item" data-menu="4"><a href="javascript:;">定时任务</a></li>
             <li class="layui-nav-item" data-menu="5"><a href="javascript:;">配置管理</a></li>
-            <li class="layui-nav-item" data-menu="6"><a href="javascript:;">系统管理</a></li>
-            <span class="layui-nav-bar"></span>
+            <li class="layui-nav-item">
+                <a href="javascript:;">其它系统<span class="layui-nav-more"></span></a>
+                <dl class="layui-nav-child top_admin_nav">
+                    <dd><a href="">邮件管理</a></dd>
+                    <dd><a href="">消息管理</a></dd>
+                    <dd><a href="">授权管理</a></dd>
+                </dl>
+            </li>
+<!--            <li class="layui-nav-item" data-menu="6"><a href="javascript:;">系统管理</a></li>-->
+            <li class="layui-nav-item">
+                <a href="javascript:;">
+                   系统管理<span class="layui-nav-more"></span>
+                </a>
+                <dl class="layui-nav-child top_admin_nav">
+                    <dd><a href="">基本资料</a></dd>
+                    <dd><a href="">安全设置</a></dd>
+                    <dd><a href="">安全设置</a></dd>
+                    <dd><a href="">安全设置</a></dd>
+                    <dd><a href="">安全设置</a></dd>
+                    <dd><a href="">安全设置</a></dd>
+                    <dd><a href="">安全设置</a></dd>
+                    <dd><a href="">安全设置</a></dd>
+                    <dd><a href="">安全设置</a></dd>
+                </dl>
+            </li>
+
         </ul>
         <ul class="layui-nav layui-layout-right">
             <li class="layui-nav-item">
@@ -45,13 +73,13 @@ AppAsset::register($this);
                     管理员
                     <span class="layui-nav-more"></span>
                 </a>
-                <dl class="layui-nav-child">
+                <dl class="layui-nav-child top_admin_nav">
                     <dd><a href="">基本资料</a></dd>
                     <dd><a href="">安全设置</a></dd>
                 </dl>
             </li>
             <li class="layui-nav-item"><a href="">退出</a></li>
-            <span class="layui-nav-bar"></span>
+
         </ul>
     </div>
 
@@ -85,9 +113,10 @@ AppAsset::register($this);
         © layui.com - 底部固定区域
     </div>
 </div>
+
 </body>
 
 <?php $this->endBody() ?>
-</body>
+
 </html>
 <?php $this->endPage() ?>

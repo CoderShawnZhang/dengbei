@@ -42,3 +42,37 @@ iframe {
     background-color: #63B8FF;
     color: #fff;
 }
+
+
+
+/*管理员下来样式*/
+.top_admin_nav{
+    top:60px;
+}
+.top_admin_nav dd{
+    background-color:#fff;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.top_admin_nav dd:hover{
+    /*background-color:#63B8FF*/
+}
+.top_admin_nav dd a{
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+
+
+/*.layui-nav .layui-nav-child a:hover,.layui-nav .layui-nav-child dd.layui-this a:hover{background-color:#63B8FF;color:#fff;}*/
+
+.layui-nav-item.layui-nav-itemed{ background-color:#2B2E37 !important;}
+.layui-nav .layui-this:after, .layui-nav-bar, .layui-nav-tree .layui-nav-itemed:after{background-color:#63B8FF;}
+/*.layui-nav-itemed:before{ width:5px; height:100%; background-color:#ff9900; position:absolute; content:''; left:0; top:0;}*/
+
+.layui-nav-tree .layui-nav-bar{    background-color: #63B8FF;}
+.topLevelMenus .layui-nav-bar:hover:after{
+    background-color: #63B8FF;
+}
