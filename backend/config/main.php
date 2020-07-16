@@ -106,9 +106,9 @@ return [
         ],
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=mysql;dbname=dengbei;port=3306',
+            'dsn' => 'mysql:host=mysql;dbname=sdadmin;port=3306',
             'username' => 'root',
-            'password' => '123456',
+            'password' => 'sodeng123#+',
             'charset' => 'utf8',
         ],
     ],
