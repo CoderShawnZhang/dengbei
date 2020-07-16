@@ -21,9 +21,9 @@ return [
          */
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=127.0.0.1;dbname=dengbei;port=3306',
+            'dsn' => 'mysql:host=localhost;dbname=sdadmin;port=3306',
             'username' => 'root',
-            'password' => '123456',
+            'password' => 'sodeng123#+',
             'charset' => 'utf8',
         ],
     ],

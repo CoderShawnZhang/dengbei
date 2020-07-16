@@ -106,7 +106,7 @@ return [
         ],
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=mysql;dbname=sdadmin;port=3306',
+            'dsn' => 'mysql:host=localhost;dbname=sdadmin;port=3306',
             'username' => 'root',
             'password' => 'sodeng123#+',
             'charset' => 'utf8',
