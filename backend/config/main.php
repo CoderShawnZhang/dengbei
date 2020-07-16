@@ -8,26 +8,32 @@ $params = array_merge(
 
 return [
     'id' => 'app-backend',
+    'language' => 'zh-CN',
+    'sourceLanguage' => 'en-US',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
-    'bootstrap' => ['log'],
+    'bootstrap' => ['log','admin'],
     'modules' => [
         'admin' => [
             'class' => 'mdm\admin\Module',
             'layout' => 'left-menu',
-            'controllerMap' => [  
-                'assignment' => [  
-                    'class' => 'mdm\admin\controllers\AssignmentController',  
-                    'userClassName' => 'app\models\User',  
-                    'idField' => 'id'  
-                ]  
-            ],  
-            'menus' => [  
-                'assignment' => [  
-                    'label' => 'Grand Access' // change label  
-                ],  
-                //'route' => null, // disable menu route  
-            ]  
+            'controllerMap' => [
+                'assignment' => [
+                    'class' => 'mdm\admin\controllers\AssignmentController',
+                    'userClassName' => 'app\models\User',
+                    'idField' => 'id',
+                    'usernameField' => 'name',
+                    'extraColumns' => [
+                        [
+                            'attribute' => 'mobile',
+                            'label' => '手机号',
+                            'value' => function ($model, $key, $index, $column) {
+                                return $model->mobile;
+                            },
+                        ],
+                    ],
+                ]
+            ]
         ],
         //商品模块-后期对接商品库组件
         'Goods' => [
