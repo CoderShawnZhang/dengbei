@@ -79,7 +79,7 @@ class SiteController extends Controller
                     ['id' => 6,'pid' => 2,'title' => '1-子菜单3','icon' => 'layui-icon-login-qq','url'=>'/Orders/user-order/order-log','target' => '_self'],
                     ['id' => 6,'pid' => 2,'title' => '1-123','icon' => 'layui-icon-login-weibo','url'=>'/site/welcome','target' => '_self'],
                     ['id' => 6,'pid' => 2,'title' => '1-333','icon' => 'layui-icon-password','url'=>'/site/welcome','target' => '_self'],
-                    ['id' => 6,'pid' => 2,'title' => '1-444','icon' => 'layui-icon-username','url'=>'/site/welcome','target' => '_self'],
+                    ['id' => 6,'pid' => 2,'title' => '3333333333','icon' => 'layui-icon-username','url'=>'/site/welcome','target' => '_self'],
                 ]
             ],
             [
