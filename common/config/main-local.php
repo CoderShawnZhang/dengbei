@@ -11,10 +11,11 @@ return [
         //旧的搜灯数据库
         'old_sodeng' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=127.0.0.1;dbname=sodeng;port=3306',
-            'username' => 'root',
-            'password' => '123456',
+            'dsn' => 'mysql:host=120.78.150.212;dbname=sodeng;port=3306',
+            'username' => 'lmt',
+            'password' => 'adminlmt',
             'charset' => 'utf8',
+            'tablePrefix' => 'oa_'
         ],
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',

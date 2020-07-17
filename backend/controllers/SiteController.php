@@ -70,6 +70,7 @@ class SiteController extends Controller
      */
     private function getMenu()
     {
+        $t = 123;
         $menuArray = [
             [
                 'id' => 2,'pid' => 1,'title' => '产品库','icon' => 'layui-icon-cellphone','url'=>'/site/welcome','target' => '_self',
@@ -83,7 +84,7 @@ class SiteController extends Controller
                 ]
             ],
             [
-                'id' => 3,'pid' => 1,'title' => 'RBAC','icon' => 'layui-icon-auz','url'=>'/site/welcome','target' => '_self',
+                'id' => 3,'pid' => 1,'title' => 'RBAC(开发使用)','icon' => 'layui-icon-auz','url'=>'/site/welcome','target' => '_self',
                 'children'=>[
 //                    ['id' => 7,'pid' => 3,'title' => '用户列表','icon' => 'layui-icon-website','url'=>'/admin/','target' => '_self'],
 //                    ['id' => 8,'pid' => 3,'title' => '分配','icon' => 'layui-icon-console','url'=>'/admin/role','target' => '_self'],
