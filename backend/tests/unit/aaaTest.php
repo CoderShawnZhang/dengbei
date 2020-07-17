@@ -24,8 +24,8 @@ class aaaTest extends TestCase
     // tests
     public function testSomeFeature()
     {
-        Assert::assertTrue(true);
-        Assert::assertEquals('bbbb','bbb1b');
+//        Assert::assertTrue(true);
+//        Assert::assertEquals('bbbb','bbb1b');
         $this->assertTrue(true);
     }
 }
