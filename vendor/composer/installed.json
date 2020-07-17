@@ -230,17 +230,17 @@
     },
     {
         "name": "codeception/codeception",
-        "version": "4.1.4",
-        "version_normalized": "4.1.4.0",
+        "version": "4.1.6",
+        "version_normalized": "4.1.6.0",
         "source": {
             "type": "git",
             "url": "https://github.com/Codeception/Codeception.git",
-            "reference": "55d8d1d882fa0777e47de17b04c29b3c50fe29e7"
+            "reference": "5515b6a6c6f1e1c909aaff2e5f3a15c177dfd1a9"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Codeception/Codeception/zipball/55d8d1d882fa0777e47de17b04c29b3c50fe29e7",
-            "reference": "55d8d1d882fa0777e47de17b04c29b3c50fe29e7",
+            "url": "https://api.github.com/repos/Codeception/Codeception/zipball/5515b6a6c6f1e1c909aaff2e5f3a15c177dfd1a9",
+            "reference": "5515b6a6c6f1e1c909aaff2e5f3a15c177dfd1a9",
             "shasum": ""
         },
         "require": {
@@ -279,7 +279,7 @@
             "stecman/symfony-console-completion": "For BASH autocompletion",
             "symfony/phpunit-bridge": "For phpunit-bridge support"
         },
-        "time": "2020-03-23T17:07:20+00:00",
+        "time": "2020-06-07T16:31:51+00:00",
         "bin": [
             "codecept"
         ],
@@ -313,6 +313,12 @@
             "acceptance testing",
             "functional testing",
             "unit testing"
+        ],
+        "funding": [
+            {
+                "url": "https://opencollective.com/codeception",
+                "type": "open_collective"
+            }
         ]
     },
     {
@@ -336,7 +342,7 @@
         },
         "time": "2020-04-17T18:20:46+00:00",
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "classmap": [
                 "src/"
@@ -604,7 +610,7 @@
         },
         "time": "2019-12-23T06:55:58+00:00",
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Codeception\\PHPUnit\\": "src\\"
@@ -643,7 +649,7 @@
         },
         "time": "2019-08-10T16:20:53+00:00",
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Codeception\\": "src/"
@@ -677,7 +683,7 @@
         },
         "time": "2019-07-30T18:21:46+00:00",
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "files": [
                 "src/Codeception/function.php"
@@ -4032,6 +4038,20 @@
             "composer",
             "extension installer",
             "yii2"
+        ],
+        "funding": [
+            {
+                "url": "https://github.com/yiisoft",
+                "type": "github"
+            },
+            {
+                "url": "https://opencollective.com/yiisoft",
+                "type": "open_collective"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/yiisoft/yii2-composer",
+                "type": "tidelift"
+            }
         ]
     },
     {

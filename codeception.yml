@@ -1,4 +1,5 @@
 # global codeception file to run tests from all apps
+actor: Tester
 include:
     - common
     - frontend

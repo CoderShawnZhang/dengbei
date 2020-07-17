@@ -1,9 +1,11 @@
 <?php
-namespace backend\tests;
+namespace app\console\tests;
 
 use PHPUnit\Framework\Assert;
+use PHPUnit\Framework\TestCase;
 
-class aTest extends \Codeception\Test\Unit
+
+class aTest extends TestCase
 {
     /**
      * @var \UnitTester
@@ -23,7 +25,6 @@ class aTest extends \Codeception\Test\Unit
     // tests
     public function testSomeFeature()
     {
-        $this->assertTrue(true);
         Assert::assertTrue(true);
     }
 }

@@ -38,7 +38,7 @@ call_user_func(static function () {
 
     $app->registerCustomCommands();
 
-    // add only if within a phar archive.1
+    // add only if within a phar archive.
     if ('phar:' === substr(__FILE__, 0, 5)) {
         $app->add(new Codeception\Command\SelfUpdate('self-update'));
     }
