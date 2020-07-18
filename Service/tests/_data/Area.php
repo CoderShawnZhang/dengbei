@@ -3,7 +3,7 @@ return [
     0 => [
         'username' => 'test',
         'auth_key' => rand(1,10),//coi,cci
-        'password_hash' => 6666,
+        'password_hash' => 8888,
         'password_reset_token' => 111,
         'email' => 111,
         'status' => 111,

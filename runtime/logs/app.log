@@ -4561,3 +4561,2694 @@ $_SERVER = [
     'argc' => 3
     'SHELL_VERBOSITY' => 0
 ]
+2020-07-18 02:32:14 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:32:14 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039534.6252
+    'REQUEST_TIME' => 1595039534
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:32:14 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:32:14 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039534.6252
+    'REQUEST_TIME' => 1595039534
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:33:14 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:33:14 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039594.501
+    'REQUEST_TIME' => 1595039594
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:33:14 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:33:14 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039594.501
+    'REQUEST_TIME' => 1595039594
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:33:37 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:33:37 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039617.51
+    'REQUEST_TIME' => 1595039617
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:33:37 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:33:37 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039617.51
+    'REQUEST_TIME' => 1595039617
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:33:48 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:33:48 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039628.2946
+    'REQUEST_TIME' => 1595039628
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:33:48 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:33:48 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039628.2946
+    'REQUEST_TIME' => 1595039628
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:34:21 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:34:21 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039660.993
+    'REQUEST_TIME' => 1595039660
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:34:21 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:34:21 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039660.993
+    'REQUEST_TIME' => 1595039660
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:36:46 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:36:46 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039806.6378
+    'REQUEST_TIME' => 1595039806
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:36:46 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:36:46 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039806.6378
+    'REQUEST_TIME' => 1595039806
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:36:54 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:36:54 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039814.6818
+    'REQUEST_TIME' => 1595039814
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:36:54 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:36:54 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039814.6818
+    'REQUEST_TIME' => 1595039814
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:37:04 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:37:04 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039824.5403
+    'REQUEST_TIME' => 1595039824
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:37:04 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:37:04 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039824.5403
+    'REQUEST_TIME' => 1595039824
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:37:36 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:37:36 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/Service'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039856.766
+    'REQUEST_TIME' => 1595039856
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:37:36 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:37:36 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/Service'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039856.766
+    'REQUEST_TIME' => 1595039856
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:37:59 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:37:59 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039879.3427
+    'REQUEST_TIME' => 1595039879
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:37:59 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:37:59 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039879.3427
+    'REQUEST_TIME' => 1595039879
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:38:13 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:38:13 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039893.2392
+    'REQUEST_TIME' => 1595039893
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:38:13 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:38:13 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039893.2392
+    'REQUEST_TIME' => 1595039893
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:38:48 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:38:48 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039928.4899
+    'REQUEST_TIME' => 1595039928
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:38:48 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:38:48 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039928.4899
+    'REQUEST_TIME' => 1595039928
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:39:00 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:39:00 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039940.1844
+    'REQUEST_TIME' => 1595039940
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:39:00 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:39:00 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039940.1844
+    'REQUEST_TIME' => 1595039940
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:39:09 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:39:09 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039949.871
+    'REQUEST_TIME' => 1595039949
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:39:10 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:39:09 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039949.871
+    'REQUEST_TIME' => 1595039949
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:39:32 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:39:32 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039972.1031
+    'REQUEST_TIME' => 1595039972
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:39:32 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:39:32 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039972.1031
+    'REQUEST_TIME' => 1595039972
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:39:43 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:39:43 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039983.1372
+    'REQUEST_TIME' => 1595039983
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:39:43 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:39:43 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595039983.1372
+    'REQUEST_TIME' => 1595039983
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:40:01 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:40:01 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595040001.0968
+    'REQUEST_TIME' => 1595040001
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:40:01 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:40:01 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595040001.0968
+    'REQUEST_TIME' => 1595040001
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:40:06 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:40:06 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595040006.7258
+    'REQUEST_TIME' => 1595040006
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:40:06 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:40:06 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595040006.7258
+    'REQUEST_TIME' => 1595040006
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:40:22 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:40:22 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595040021.9733
+    'REQUEST_TIME' => 1595040021
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:40:22 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:40:22 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595040021.9733
+    'REQUEST_TIME' => 1595040021
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:40:58 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:40:58 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595040058.1096
+    'REQUEST_TIME' => 1595040058
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:40:58 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:40:58 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595040058.1096
+    'REQUEST_TIME' => 1595040058
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:41:05 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:41:05 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595040065.5181
+    'REQUEST_TIME' => 1595040065
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:41:05 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:41:05 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595040065.5181
+    'REQUEST_TIME' => 1595040065
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:41:28 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:41:28 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/Service'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595040088.6181
+    'REQUEST_TIME' => 1595040088
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:41:28 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:41:28 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/Service'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595040088.6181
+    'REQUEST_TIME' => 1595040088
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:42:11 [warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/mdmsoft/yii2-admin/Module.php:106
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Lib/Connector/Yii2.php:274
+    in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/codeception/module-yii2/src/Codeception/Module/Yii2.php:334
+2020-07-18 02:42:11 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595040131.5373
+    'REQUEST_TIME' => 1595040131
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
+2020-07-18 02:42:11 [warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Error' with message 'Call to a member function getRequest() on null' 
+
+in /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php:59
+
+Stack trace:
+#0 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(61): yii\debug\panels\RequestPanel->save()
+#1 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2-debug/src/LogTarget.php(136): yii\debug\LogTarget->export()
+#2 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Dispatcher.php(191): yii\debug\LogTarget->collect(Array, true)
+#3 /Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/vendor/yiisoft/yii2/log/Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#4 [internal function]: yii\log\Logger->flush(true)
+#5 {main}
+2020-07-18 02:42:11 [info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/9z/ddz4978j4nzc93khw7qlxy0m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.krb9ZERy8W/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'USER' => 'zhanghongbo'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.MLHhoUPlOS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'COMPOSER_CACHE_DIR' => '/Applications/MxSrvs/cache/composer'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei/backend'
+    'XPC_FLAGS' => '0x0'
+    'PS1' => '\\[\\033[01;33m\\]\\h\\[\\033[01;31m\\] \\W\\$\\[\\033[00m\\] '
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/zhanghongbo'
+    'LOGNAME' => 'zhanghongbo'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'HISTFILE' => '/Users/zhanghongbo/Library/Preferences/PhpStorm2018.3/terminal/history/history-'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/bin/codecept'
+    'OLDPWD' => '/Users/zhanghongbo/develop/docker/dev/var/data/www/dengbei'
+    'PHP_SELF' => '/usr/local/bin/codecept'
+    'SCRIPT_NAME' => '/usr/local/bin/codecept'
+    'SCRIPT_FILENAME' => '/usr/local/bin/codecept'
+    'PATH_TRANSLATED' => '/usr/local/bin/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1595040131.5373
+    'REQUEST_TIME' => 1595040131
+    'argv' => [
+        0 => '/usr/local/bin/codecept'
+        1 => 'run'
+        2 => 'unit'
+    ]
+    'argc' => 3
+    'SHELL_VERBOSITY' => 0
+]
