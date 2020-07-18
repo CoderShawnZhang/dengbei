@@ -15,6 +15,7 @@ return [
             'assignmentTable' => 'auth_assignment',
             'itemChildTable' => 'auth_item_child',
             'ruleTable' => 'auth_rule',
+            'cache' => 'cache',
         ],
          /**
          * 数据库相关设置

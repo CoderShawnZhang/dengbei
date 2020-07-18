@@ -1,7 +1,9 @@
 <?php
 namespace backend\controllers;
 
+use console\models\MenuAr;
 use Yii;
+use yii\helpers\Html;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
@@ -66,53 +68,30 @@ class SiteController extends Controller
     }
 
     /**
+     * 获取菜单列表
      * @test
      */
     private function getMenu()
     {
-        $t = 123;
-        $menuArray = [
-            [
-                'id' => 2,'pid' => 1,'title' => '产品库','icon' => 'layui-icon-cellphone','url'=>'/site/welcome','target' => '_self',
-                'children'=>[
-                    ['id' => 4,'pid' => 2,'title' => '1-子菜单1','icon' => 'layui-icon-vercode','url'=>'/Goods/index/test','target' => '_self'],
-                    ['id' => 5,'pid' => 2,'title' => '1-子菜单2','icon' => 'layui-icon-login-wechat','url'=>'/Orders/index/index','target' => '_self'],
-                    ['id' => 6,'pid' => 2,'title' => '1-子菜单3','icon' => 'layui-icon-login-qq','url'=>'/Orders/user-order/order-log','target' => '_self'],
-                    ['id' => 6,'pid' => 2,'title' => '1-123','icon' => 'layui-icon-login-weibo','url'=>'/site/welcome','target' => '_self'],
-                    ['id' => 6,'pid' => 2,'title' => '1-333','icon' => 'layui-icon-password','url'=>'/site/welcome','target' => '_self'],
-                    ['id' => 6,'pid' => 2,'title' => '3333333333','icon' => 'layui-icon-username','url'=>'/site/welcome','target' => '_self'],
-                ]
-            ],
-            [
-                'id' => 3,'pid' => 1,'title' => 'RBAC(开发使用)','icon' => 'layui-icon-auz','url'=>'/site/welcome','target' => '_self',
-                'children'=>[
-//                    ['id' => 7,'pid' => 3,'title' => '用户列表','icon' => 'layui-icon-website','url'=>'/admin/','target' => '_self'],
-//                    ['id' => 8,'pid' => 3,'title' => '分配','icon' => 'layui-icon-console','url'=>'/admin/role','target' => '_self'],
-                    ['id' => 9,'pid' => 3,'title' => '角色列表','icon' => 'layui-icon-set','url'=>'/admin/role','target' => '_self'],
-                    ['id' => 9,'pid' => 3,'title' => '权限列表','icon' => 'layui-icon-set','url'=>'/admin/permission','target' => '_self'],
-                    ['id' => 9,'pid' => 3,'title' => '路由列表','icon' => 'layui-icon-set','url'=>'/admin/route','target' => '_self'],
-                    ['id' => 9,'pid' => 3,'title' => '规则列表','icon' => 'layui-icon-set','url'=>'/admin/rule','target' => '_self'],
-                    ['id' => 9,'pid' => 3,'title' => '菜单列表','icon' => 'layui-icon-set','url'=>'/admin/menu','target' => '_self'],
-                ]
-            ],
-            [
-                'id' => 3,'pid' => 1,'title' => '仓库管理','icon' => 'layui-icon-radio','url'=>'/site/welcome','target' => '_self',
-                'children'=>[
-                    ['id' => 7,'pid' => 3,'title' => '2-子菜单1','icon' => 'layui-icon-website','url'=>'/site/welcome','target' => '_self'],
-                    ['id' => 8,'pid' => 3,'title' => '2-子菜单2','icon' => 'layui-icon-console','url'=>'/site/welcome','target' => '_self'],
-                    ['id' => 9,'pid' => 3,'title' => '2-子菜单3','icon' => 'layui-icon-set','url'=>'/site/welcome','target' => '_self'],
-                ]
-            ],
-            [
-                'id' => 3,'pid' => 1,'title' => '用户管理','icon' => 'layui-icon-add-circle','url'=>'/site/welcome','target' => '_self',
-                'children'=>[
-                    ['id' => 7,'pid' => 3,'title' => '2-子菜单1','icon' => 'layui-icon-website','url'=>'/site/welcome','target' => '_self'],
-                    ['id' => 8,'pid' => 3,'title' => '2-子菜单2','icon' => 'layui-icon-console','url'=>'/site/welcome','target' => '_self'],
-                    ['id' => 9,'pid' => 3,'title' => '2-子菜单3','icon' => 'layui-icon-set','url'=>'/site/welcome','target' => '_self'],
-                ]
-            ]
-        ];
+        $cache = Yii::$app->cache;
+        $cacheRes = $cache->get('menu');
+        if($cacheRes){
+            return $cacheRes;
+        }
+        $menu = MenuAr::find()->where(['parent'=>null])->all();
+        $menuArray = [];
+        foreach($menu as $key => $val){
+            $menuArray[] = $val->toArray(['id','name','parent','route','order','data'],['children']);
+        };
+        $cache->set('menu',$menuArray);
         return $menuArray;
+    }
+
+    public function actionClearCache()
+    {
+        Yii::$app->cache->flush();
+        $notice = '菜单缓存清理成功';
+        echo html_entity_decode($notice, ENT_QUOTES, 'UTF-8');
     }
 
 
