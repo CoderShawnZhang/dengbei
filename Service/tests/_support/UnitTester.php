@@ -1,5 +1,5 @@
 <?php
-namespace Service\tests;
+
 
 /**
  * Inherited Methods
