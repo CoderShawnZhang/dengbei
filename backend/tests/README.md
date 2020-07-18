@@ -11,5 +11,8 @@
   fixtures：haveFixtures/grabFixture/grabFixtures
   {查看测试命令：codecept g}
 5:创建单元测试：codecept g:test unit a
+    执行：codecept run unit
 6:创建验收测试：codecept g:cest acceptance a
+    执行：codecept run acceptance
 7:创建功能测试：codecept generate:cept functional a
+    执行：codecept run functional
