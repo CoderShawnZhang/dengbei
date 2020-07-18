@@ -26,11 +26,7 @@
         "fxp/composer-asset-plugin": "^1.4",
         "mdmsoft/yii2-admin": "~2.0",
         "codeception/codeception": "^4.1",
-        "codeception/module-phpbrowser": "^1.0.0",
-        "codeception/module-asserts": "^1.0.0",
-        "codeception/module-yii2": "^1.0.0",
-        "yiisoft/yii2-codeception": "^2.0",
-        "codeception/specify": "^1.3"
+        "yiisoft/yii2-codeception": "^2.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",
