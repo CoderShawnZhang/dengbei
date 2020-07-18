@@ -1,30 +1,23 @@
-<?php
-namespace app\console\tests;
+<?php namespace console\tests;
 
-use PHPUnit\Framework\Assert;
-use PHPUnit\Framework\TestCase;
-
-
-class aTest extends TestCase
+class aTest extends \Codeception\Test\Unit
 {
     /**
-     * @var \UnitTester
+     * @var \console\tests\UnitTester
      */
     protected $tester;
     
     protected function _before()
     {
-
     }
 
     protected function _after()
     {
-
     }
 
     // tests
     public function testSomeFeature()
     {
-        Assert::assertTrue(true);
+
     }
 }

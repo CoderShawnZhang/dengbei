@@ -9,5 +9,7 @@ modules:
     enabled:
         - PhpBrowser:
             url: http://localhost/myapp
-        - \Helper\Acceptance
-    step_decorators: ~        
+        - Yii2:
+              part: [orm, email, fixtures]
+#        - \Helper\Acceptance
+#    step_decorators: ~

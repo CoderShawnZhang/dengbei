@@ -3,9 +3,9 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=127.0.0.1;dbname=dengbei;port=3306',
+            'dsn' => 'mysql:host=mysql;dbname=dengbei;port=3306',
             'username' => 'root',
-            'password' => '123456',
+            'password' => 123456,
             'charset' => 'utf8',
         ],
         //旧的搜灯数据库

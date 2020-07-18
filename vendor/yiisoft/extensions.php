@@ -48,13 +48,22 @@ return array (
       '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker',
     ),
   ),
-    'mdmsoft/yii2-admin' =>
-        array (
-            'name' => 'mdmsoft/yii2-admin',
-            'version' => '2.7.0.0',
-            'alias' =>
-                array (
-                    '@mdm/admin' => $vendorDir . '/mdmsoft/yii2-admin',
-                ),
-        ),
+  'mdmsoft/yii2-admin' => 
+  array (
+    'name' => 'mdmsoft/yii2-admin',
+    'version' => '2.7.0.0',
+    'alias' => 
+    array (
+      '@mdm/admin' => $vendorDir . '/mdmsoft/yii2-admin',
+    ),
+  ),
+  'yiisoft/yii2-codeception' => 
+  array (
+    'name' => 'yiisoft/yii2-codeception',
+    'version' => '2.0.6.0',
+    'alias' => 
+    array (
+      '@yii/codeception' => $vendorDir . '/yiisoft/yii2-codeception',
+    ),
+  ),
 );
