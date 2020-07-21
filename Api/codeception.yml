@@ -1,4 +1,4 @@
-namespace: console\tests
+namespace: Api\tests
 actor: Tester
 paths:
     tests: tests
@@ -14,7 +14,7 @@ settings:
 modules:
     config:
         Yii2:
-            configFile: 'Config/test-local.php'
+            configFile: '../backend/config/test-local.php'
             cleanup: false
 extensions:
     enabled:
