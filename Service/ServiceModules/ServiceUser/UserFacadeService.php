@@ -15,7 +15,7 @@ use Service\ServiceBase\BaseService;
  * Class FacadeService
  * @package Service\ServiceModules\ServiceUser
  */
-class FacadeService extends BaseService
+final class UserFacadeService extends BaseService
 {
     //客户管理
     //客户角色
@@ -23,4 +23,13 @@ class FacadeService extends BaseService
     //客户加盟商
     //客户返现计算
     //客户任务
+    public  function a()
+    {
+
+    }
+
+    public function b()
+    {
+        UserFacadeService::a();
+    }
 }
