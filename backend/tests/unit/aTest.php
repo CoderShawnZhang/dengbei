@@ -1,6 +1,8 @@
 <?php
 namespace backend\tests\unit;
 
+use Service\ServiceModules\ServiceUser\UserService;
+
 class aTest extends \Codeception\Test\Unit
 {
     /**
@@ -27,6 +29,7 @@ class aTest extends \Codeception\Test\Unit
     // tests
     public function testSomeFeature()
     {
-
+       $res = UserService::test();
+       $this->assertEquals($res['username'],'test1');
     }
 }

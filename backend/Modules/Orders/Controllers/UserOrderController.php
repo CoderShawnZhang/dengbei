@@ -10,11 +10,13 @@ namespace backend\Modules\Orders\Controllers;
 
 
 use backend\controllers\BaseController;
+use Service\ServiceModules\ServiceUser\UserService;
 
 class UserOrderController extends BaseController
 {
     public function actionOrderLog()
     {
         echo 123;
+        UserService::abc()->a();
     }
 }

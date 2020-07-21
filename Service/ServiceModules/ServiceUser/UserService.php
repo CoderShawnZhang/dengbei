@@ -8,6 +8,8 @@
 
 namespace Service\ServiceModules\ServiceUser;
 
+use Service\ServiceModules\ServiceUser\Models\Ar\UserAr;
+
 /**
  * 对外调用服务层。
  * Class UserService
@@ -25,8 +27,8 @@ final class UserService
     /**
      * 顶层调用；
      */
-    public function aaa()
+    public static function test()
     {
-        UserService::abc()->a();
+      return UserAr::find()->where(['username' => 'test'])->one();
     }
 }
