@@ -9,8 +9,7 @@ layui.config({
 
 layui.use(['bodyTab'],function(e){
     tab = layui.bodyTab({
-        url:'/site/menu',
-        top_url:'/site/top'
+        url:'/site/menu?top_menu_id=1'
     });
     // 添加新窗口
     $("body").on("click", ".layui-nav-tree .layui-nav-child a", function () {
@@ -25,12 +24,12 @@ layui.use(['bodyTab'],function(e){
     });
 });
 $(".topLevelMenus li").click(function () {
-    var cur_index = $(this).data('menu');
-    var url = tab.tabConfig.top_url;
-    if(cur_index == 1){
-        url = tab.tabConfig.url;
-    }
-    $.get(url,function(res){
+    var url = tab.tabConfig.url;
+    var top_menu_id = $(this).data('menu');
+    // if(top_menu_id == undefined || top_menu_id == ''){
+    //     top_menu_id=1;
+    // }
+    $.get(url,{top_menu_id:top_menu_id},function(res){
         tab.render(res.menu);
     });
 });

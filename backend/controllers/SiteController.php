@@ -64,6 +64,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+//        echo phpinfo();die;
         return $this->render('index');
     }
 
@@ -73,6 +74,8 @@ class SiteController extends Controller
      */
     private function getMenu()
     {
+        $get = Yii::$app->request->get();
+        $top_menu_id = $get['top_menu_id'];
         $cache = Yii::$app->cache;
         $cacheRes = $cache->get('menu');
         if($cacheRes){
